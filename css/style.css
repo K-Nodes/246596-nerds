@@ -1,0 +1,21 @@
+.body{
+    font-size:16px;
+    line-height:24px;
+    color:#283136;
+    font-weight:normal;
+    font-family:"Roboto",sans-serif;
+}
+h1{
+    font-size:55px;
+    line-height:55px;
+    color:#000000;
+    font-weight:bold;
+    font-family:"Roboto",sans-serif;
+}
+h2{
+    font-size:45px;
+    line-height:45px;
+    color:#000000;
+    font-weight:bold;
+    font-family:"Roboto",sans-serif;
+}
