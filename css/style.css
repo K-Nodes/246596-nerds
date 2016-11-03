@@ -19,3 +19,125 @@ h2{
     font-weight:bold;
     font-family:"Roboto",sans-serif;
 }
+h3{
+    font-size:24px;
+    font-weight:bold;
+    font-family:"Roboto",sans-serif;
+    text-transform: uppercase;
+}
+.top-block{
+    border:1px solid blue;
+    min-height:545px;
+    margin-bottom:65px;
+}
+header{
+    border:1px solid blue;
+    min-height:70px;
+    width:1160px;
+    margin-left:130px;
+    margin-top:40px;
+    margin-bottom:35px;
+}
+.logo{
+    border:1px solid red;
+    width:auto;
+    float:left;
+}
+.top-navigation{
+    border:1px solid red;
+    width:440px;
+    min-height:70px; 
+    float:left;
+    margin-left:200px;
+}
+.top-navigation ul li{
+    display:inline-block;
+}
+.top-basket{
+    border:1px solid red;
+    width:125px;
+    min-height:70px;
+    float:right;
+}
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.slider-item{
+    border:1px solid red;
+    margin-left:130px;
+    width:380px;
+}
+.more{
+    width:240px;
+    height:50px;
+    background-color:#fb565a;
+    border-radius:5px;
+    margin-top:42px;
+    }
+.more a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.bottom-block{
+    border:1px solid blue;
+    width:1160px;
+    margin-left:130px;
+}
+.main-catalog{
+    border:1px solid red;
+}
+.veb-sites{
+    border:1px solid blue;
+    float:left;
+    width:300px;
+    margin-right:100px;
+}
+.apps{
+    border:1px solid blue;
+    float:left;
+    width:300px;
+}
+.present{
+    border:1px solid blue;
+    float:right;
+    width:300px;
+    margin-right:60px;
+}
+.charter{
+    border:1px solid blue;
+    width:160px;
+    height:50px;
+    border-radius:2px;
+    margin-top:40px;
+    margin-bottom:70px;
+}
+.charter a{
+    text-decoration:none;
+    color:#ffffff;
+}
+.charter-1{
+    background:#fb565a;
+}
+.charter-2{
+    background:#00ca74;
+}
+.charter-3{
+    background:#efc84a;
+}
+.advantage{
+    border:1px solid red;
+}
+.advantage-left{
+    border:1px solid blue;
+    float:left;
+    width:700px;
+    margin-top:40px;
+}
+.advantage-right{
+    border:1px solid blue;
+    float:right;
+    width:400px;
+}
