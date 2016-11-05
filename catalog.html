@@ -7,7 +7,8 @@
   </head>
   <body>
 <!--Хедер-->
-    <header class="header">
+    <div class="top-block-catalog">
+      <header class="header">
         <div class="logo">
           <a href="#" class="logotip">
             <img src="img/nerds-logo.png" width="160" height="65" alt="nerds">
@@ -39,18 +40,25 @@
       <div class="magazine">
           <h1>Магазин готовых шаблонов</h1>
       </div>
+    </div>
 <!--Форма-->
+    <div class="main-catalog clearfix">
+      <div class="left-column">
       <form action="#" method="post">
-          <h3>Стоимость:</h3>
-          <div class="range">
+          <span class="price">
+              <h3>Стоимость:</h3>
+          </span>
+          <div class="main-range">
+            <div class="range">
             <div class="range-item range-item-left">
               <a href="#"></a>
             </div>
             <div class="range-item range-item-right">
               <a href="#"></a>
             </div>
+            </div>
           </div>
-          <div class="form">
+              <div class="form">
             <div class="net">
               <h3>Сетка:</h3>
               <label>
@@ -85,6 +93,7 @@
               </button>
           </div>
       </form>
+    </div>
 <!--Галерея шаблонов-->
       <div class="gallery">
           <div class="bottom-list">
@@ -108,8 +117,8 @@
               </div>
           </div>   
           </div>
-          <div class="block-list">
-              <div class="block-item">
+          <div class="block-list clearfix">
+              <div class="block-item sedona">
                 <div class="block-general">
                   <div class="block-grey">
                   <ul>
@@ -128,7 +137,7 @@
                   <a href="#">9 900 руб.</a>
               </div>
               </div>
-              <div class="block-item">
+              <div class="block-item pink">
                 <div class="block-general">
                   <div class="block-grey">
                   <ul>
@@ -147,7 +156,7 @@
                   <a href="#">9 900 руб.</a>
               </div>
               </div>
-              <div class="block-item">
+              <div class="block-item barbershop">
                 <div class="block-general">
                   <div class="block-grey">
                   <ul>
@@ -166,7 +175,7 @@
                   <a href="#">9 900 руб.</a>
               </div>
               </div>
-              <div class="block-item">
+              <div class="block-item mishka">
                 <div class="block-general">
                   <div class="block-grey">
                   <ul>
@@ -185,7 +194,7 @@
                   <a href="#">9 900 руб.</a>
               </div>
               </div>
-              <div class="block-item">
+              <div class="block-item a-plus">
                 <div class="block-general">
                   <div class="block-grey">
                   <ul>
@@ -204,7 +213,7 @@
                   <a href="#">9 900 руб.</a>
               </div>
               </div>
-              <div class="block-item">
+              <div class="block-item kvast">
                 <div class="block-general">
                   <div class="block-grey">
                   <ul>
@@ -225,6 +234,7 @@
               </div>
           </div>
       </div>
+    </div>
  <!--Нижний навигатор по страницам-->
       <div class="bottom-navigator">
           <ul class="page-navigator">
@@ -237,7 +247,7 @@
               <li class="page">
                   <a href="#">3</a>
               </li>
-              <li class="page-next">
+              <li class="page page-next">
                   <a href="#">Следующая</a>
               </li>
           </ul>
@@ -260,21 +270,22 @@
         <div class="social">
             <ul class="social-list">
                 <li class="social social-1">
-                <a href="#">    
+                <a href="#" title="vkontakte">    
                 </a>
                 </li>
                 <li class="social social-2">
-                <a href="#">  
+                <a href="#" title="facebook">  
                 </a>
                 </li>
                 <li class="social social-3">
-                <a href="#">  
+                <a href="#" title="instagram">  
                 </a>
                 </li>
             </ul>
         </div>
         <div class="friends">
-          <h3>Давайте дружить,это выгодно!</h3>
+        <span class="profit">Давайте     дружить,это выгодно!
+        </span>
           <p>Скидка 10% для друзей из социальных сетей.</p>
         </div>
       </footer>
