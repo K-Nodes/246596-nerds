@@ -1,9 +1,11 @@
 .body{
+    min-width:1200px;
     font-size:16px;
     line-height:24px;
-    color:#283136;
-    font-weight:normal;
+    color:#000000;
+    font-weight:bold;
     font-family:"Roboto",serif;
+    background-color:#ffffff;
 }
 h1{
     font-size:55px;
@@ -25,39 +27,98 @@ h3{
     font-family:"Roboto",sans-serif;
     text-transform: uppercase;
 }
+.main-container{
+    width:1200px;
+    margin-right:auto;
+    margin-left:auto;
+}
 .top-block{
     border:1px solid blue;
     min-height:545px;
     margin-bottom:65px;
+    background-color:#eeeeee;
 }
 header{
-    border:1px solid blue;
     min-height:70px;
     width:1160px;
-    margin-left:130px;
     margin-top:40px;
     margin-bottom:35px;
+    background-color:#eeeeee;
+    color:#000000;
 }
 .logo{
-    border:1px solid red;
-    width:auto;
+    width:160px;
     float:left;
 }
+.logo-link:hover{
+    opacity:0.8;
+}
 .top-navigation{
-    border:1px solid red;
     width:440px;
-    min-height:70px; 
+    min-height:45px; 
     float:left;
     margin-left:200px;
 }
+.top-navigation ul{
+    margin:0;
+    padding:0;
+}
 .top-navigation ul li{
     display:inline-block;
+    vertical-align:top;
+    line-height:30px;
+    margin-right:40px;
+}
+.top-navigation a{
+    display:block;
+    color:#000000;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family:"Roboto",sans-serif;
+    font-weight:bold;
+    }
+.top-navigation ul li:last-child{
+    margin-right:0;
+}
+.top-navigation a:hover{
+    color:#fb565a;
 }
 .top-basket{
-    border:1px solid red;
-    width:125px;
-    min-height:70px;
+    position:relative;
+    display:inline-block;
+    max-width:140px;
     float:right;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:50px;
+    padding-right:20px;
+}
+.top-basket a{
+    display:block;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:16px;
+    line-height:30px;
+    color:#000000;
+    font-weight:bold;
+    vertical-align:top;
+}
+.top-basket a:hover{
+    color:#fb565a;
+}
+.top-basket::before{
+    content:"";
+    position:absolute;
+    top:26px;
+    left:25px;
+    background-color:transparent;
+    background-image:url("../img/sprite.png");
+    width: 15px;
+    height: 15px;
+    background-position: -10px -10px;
+    opacity:0.3;
 }
 .clearfix:after{
     content:'';
@@ -66,8 +127,7 @@ header{
 }
 .slider-item{
     border:1px solid red;
-    margin-left:130px;
-    width:380px;
+    width:100%;
 }
 .more{
     width:240px;
@@ -83,30 +143,31 @@ header{
 }
 .bottom-block{
     border:1px solid blue;
-    width:1160px;
-    margin-left:130px;
+    /*width:1160px;*/
+    /*margin-left:130px;*/
     margin-bottom:80px;
 }
 .main-catalog{
     border:1px solid red;
     margin-bottom:40px;
+    width:1100px;
 }
 .veb-sites{
     border:1px solid blue;
     float:left;
     width:300px;
-    margin-right:100px;
 }
 .apps{
     border:1px solid blue;
     float:left;
     width:300px;
+    margin-left:100px;
 }
 .present{
     border:1px solid blue;
     float:right;
     width:300px;
-    margin-right:60px;
+    margin-left:100;
 }
 .charter{
     border:1px solid blue;
@@ -255,7 +316,6 @@ footer{
 }
 .price h3{
     font-size:18px;
-    letter-spacing:0,5em;
     font-weight:bold;
 }
 .main-range{
@@ -353,3 +413,46 @@ footer{
 .page-next{
     width:260px;
 }
+/*Стили спрайта
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-cart-icon {
+    width: 15px;
+    height: 15px;
+    background-position: -10px -10px;
+}
+
+.sprite-fb-icon {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -45px;
+}
+
+.sprite-insta-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -87px;
+}
+
+.sprite-sort-down {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -128px;
+}
+
+.sprite-sort-up {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -157px;
+}
+
+.sprite-vk-icon {
+    width: 26px;
+    height: 15px;
+    background-position: -10px -186px;
+}
+*/
