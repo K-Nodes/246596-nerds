@@ -125,10 +125,6 @@ header{
     display:table;
     clear:both;
 }
-.slider-item{
-    border:1px solid red;
-    width:100%;
-}
 .more{
     width:240px;
     height:50px;
@@ -413,6 +409,12 @@ footer{
 .page-next{
     width:260px;
 }
+.slider{
+    background-image:url(../img/slider-1.png);
+    background-repeat:no-repeat;
+    background-position:400px 0px;
+}
+
 /*Стили спрайта
 .sprite {
     background-image: url(../img/sprite.png);
