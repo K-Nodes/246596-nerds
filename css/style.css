@@ -129,7 +129,7 @@ header{
     background-image:url("../img/sprite.png");
     width: 15px;
     height: 15px;
-    background-position: -10px -10px;
+    background-position: -20px -20px;
     opacity:0.3;
 }
 .clearfix:after{
@@ -157,27 +157,13 @@ header{
 .btn:active{
     background-color:#d7373b;
     color:#e37376;
-    box-shadow:inset 0 5px 0 0 #c13135;
+    box-shadow:inset 0 2px 0 0 #c13135;
 }
 .bottom-block{
-    /*border:1px solid blue;*/
-    /*width:1160px;*/
-    /*margin-left:130px;*/
     margin-bottom:80px;
-    position:relative;
-}
-.bottom-block::after{
-    content:"";
-    position:absolute;
-    background-image:url(../img/gray-line.png);
-    background-repeat:repeat-x;
-    width:1160px;
-    top:427px;
-    height:2px;
 }
 .main-catalog{
-    /*border:1px solid red;*/
-    margin-bottom:40px;
+    margin-bottom:10px;
     width:1100px;
 }
 .veb-sites{
@@ -185,17 +171,29 @@ header{
     float:left;
     width:300px;
 }
+.veb-sites img{
+    background-color:#fb565a;
+    color:#ffffff;
+}
 .apps{
     /*border:1px solid blue;*/
     float:left;
     width:300px;
     margin-left:100px;
 }
+.apps img{
+    background-color:#00ca74;
+    color:#ffffff;
+}
 .present{
     /*border:1px solid blue;*/
-    float:right;
+    float:left;
     width:300px;
-    margin-left:100;
+    margin-left:100px;
+}
+.present img{
+    background-color:#efc849;
+    color:#ffffff;
 }
 .btn-2{
     display:block;
@@ -223,7 +221,7 @@ header{
 .charter-1:active{
     color:#e37376;
     background:#d7373b;
-    box-shadow:inset 0 5px 0 0 #c13135;
+    box-shadow:inset 0 2px 0 0 #c13135;
 }
 .charter-2{
     background:#00ca74;
@@ -234,7 +232,7 @@ header{
 .charter-2:active{
     color:#4dc491;
     background:#00bc6c;
-    box-shadow:inset 0 5px 0 0 #009958;
+    box-shadow:inset 0 2px 0 0 #009958;
 }
 .charter-3{
     background:#efc84a;
@@ -245,12 +243,13 @@ header{
 .charter-3:active{
     color:#edc265;
     background:#e5a722;
-    box-shadow:inset 0 5px 0 0 #ce961f;
+    box-shadow:inset 0 2px 0 0 #ce961f;
 }
 .advantage{
     /*border:1px solid red;*/
     margin-bottom:64px;
-    /*border-top:2px solid #eeeeee;*/
+    border-top:2px solid #eeeeee;
+    padding-top:30px;
 }
 .advantage-left{
     position:relative;
@@ -298,11 +297,10 @@ header{
     /*margin-left:40px;*/
 }
 .logo-color{
-    /*margin-top:5px;
-    margin-left:43px;
-    margin-bottom:32px;*/
     position:absolute;
     top:10px;
+    background-color:#ffffff;
+    color:#000000;
 }
 .statistics{
     position:absolute;
@@ -333,6 +331,10 @@ header{
     border-bottom:2px solid #eeeeee;
     /*position:relative;
     min-height:180px;*/
+}
+.client img{
+    background-color:#ffffff;
+    color:#000000;
 }
 
 /*.client-logotip::after{
@@ -371,19 +373,22 @@ header{
     position:relative;
 }
 .contakts{
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     width:320px;
     min-height:310px;
     position:absolute;
-    top:54px;
-    left:100px;
+    top:50px;
+    left:76px;
     background:#ffffff;
-    padding:50px;
-    padding-bottom:40px;
+    padding-top:32px;
+    padding-bottom:0px;
+    padding-left:47px;
+    padding-right:;
     box-sizing:border-box;
 }
 .contakts h4{
     text-transform:uppercase;
+    margin-bottom:30px;
 }
 .btn-3{
     display:block;
@@ -397,34 +402,80 @@ header{
     color:#ffffff;
     text-decoration:none;
     text-transform:uppercase;
+    margin-top:40px;
+}
+.btn-3:hover{
+    background-color:#e74246;
+}
+.btn-3:active{
+    background-color:#d7373b;
+    color:#e37376;
+    box-shadow:inset 0 2px 0 0 #c13135;
 }
 .social{
     display:inline-block;
 }
 .social-list{
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     list-style:none;
     width:260px;
-    padding-left:0;
+    padding-left:0px;
+    /*padding-right:0px;*/
     margin-right:135px;
+    margin-top:25px;
+}
+.social-list li{
+    margin-right:3px;
 }
 .social-list a{
-    border:1px solid red;
+    /*border:1px solid red;*/
     display:inline-block;
     border-radius:50%;
     min-height:80px;
     width:80px;
+    background-color:#e1e1e1;
+}
+.social-list a:hover{
+    background-color:#e74246;
+}
+.social-list a:active{
+    background-color:#d7373b;
+    box-shadow:inset 0 2px 0 0 #c13135;
+}
+.social-1 a{
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    display:block;
+    background-position:6px -265px;
+}
+.social-2 a{
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    display:block;
+    background-position:14px -47px;
+}
+.social-3 a{
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    display:block;
+    background-position:10px -109px;
+}
+.footer{
+    position:relative;
 }
 .friends{
-    border:1px solid blue;
+    position:absolute;
+    top:28px;
+    left:472px;
+    /*border:1px solid blue;*/
     display:inline-block;
 }
 .profit{
     font-weight:bold;
-    font-size:38px;
+    font-size:36px;
 }
 .top-block-catalog{
-    border:1px solid blue; 
+    border:1px solid blue;
     width:100%;
     min-height:340px;
     margin-bottom:57px;
@@ -580,8 +631,8 @@ header{
     width:4px;
     height:4px;
 }
-/*Стили спрайта
-.sprite {
+Стили спрайта
+./*sprite {
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
     display: block;
@@ -590,36 +641,36 @@ header{
 .sprite-cart-icon {
     width: 15px;
     height: 15px;
-    background-position: -10px -10px;
+    background-position: -20px -20px;
 }
 
 .sprite-fb-icon {
     width: 12px;
     height: 22px;
-    background-position: -10px -45px;
+    background-position: -20px -75px;
 }
 
 .sprite-insta-icon {
     width: 21px;
     height: 21px;
-    background-position: -10px -87px;
+    background-position: -20px -137px;
 }
 
 .sprite-sort-down {
     width: 9px;
     height: 9px;
-    background-position: -10px -128px;
+    background-position: -20px -198px;
 }
 
 .sprite-sort-up {
     width: 9px;
     height: 9px;
-    background-position: -10px -157px;
+    background-position: -20px -247px;
 }
 
 .sprite-vk-icon {
     width: 26px;
     height: 15px;
-    background-position: -10px -186px;
+    background-position: -20px -296px;
 }
 */
