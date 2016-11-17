@@ -254,6 +254,9 @@ header{
     background:#e5a722;
     box-shadow:inset 0 2px 0 0 #ce961f;
 }
+.main-list{
+    margin-bottom:10px;
+}
 .advantage{
     margin-bottom:64px;
     border-top:2px solid #eeeeee;
@@ -337,11 +340,27 @@ header{
     margin-left:20px;
 }
 .stat{
+    position:relative;
     width:100px;
     margin-top:-12px;
 }
 .stat p{
     margin-top:-20px;
+}
+.stat-1 h3 ,
+.stat-2 h3
+{
+    position:absolute;
+    left:75px;
+    top:10px;
+    font-size:26px;
+}
+.stat-3 h3
+{
+    position:absolute;
+    left:50px;
+    top:10px;
+    font-size:26px;
 }
 .client-logotip{
     border-top:2px solid #eeeeee;
@@ -389,20 +408,27 @@ header{
 }
 .contakts{
     width:320px;
-    min-height:310px;
+    min-height:0px;
     position:absolute;
     top:50px;
     left:76px;
     background:#ffffff;
-    padding-top:32px;
-    padding-bottom:0px;
-    padding-left:47px;
-    padding-right:;
-    box-sizing:border-box;
+    padding-top:35px;
+    padding-bottom:35px;
+    padding-right:0px;
+    padding-left:0px;
 }
-.contakts h4{
+.main-contakts h4{
     text-transform:uppercase;
     margin-bottom:30px;
+    font-size:16px;
+    text-align:left;
+}
+.main-contakts{
+    width:200px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-right:20px;
 }
 .btn-3{
     display:block;
@@ -458,7 +484,13 @@ header{
     background-image:url(../img/sprite.png);
     background-repeat:no-repeat;
     display:block;
-    background-position:6px -265px;
+    background-position:5px -387px;
+}
+.social-1 a:active{
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    display:block;
+    background-position:5px -442px;
 }
 .social-2 a{
     background-image:url(../img/sprite.png);
@@ -466,11 +498,23 @@ header{
     display:block;
     background-position:14px -47px;
 }
+.social-2 a:active{
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    display:block;
+    background-position:14px -109px;
+}
 .social-3 a{
     background-image:url(../img/sprite.png);
     background-repeat:no-repeat;
     display:block;
-    background-position:10px -109px;
+    background-position:10px -170px;
+}
+.social-3 a:active{
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    display:block;
+    background-position:10px -231px;
 }
 .footer{
     position:relative;
@@ -573,7 +617,7 @@ header{
     min-height:160px;
     width:100%;
     padding-top:25px;
-    margin-bottom:50px;
+    margin-bottom:45px;
 }
 .net h3{
     font-size:18px;
@@ -581,7 +625,7 @@ header{
 }
 .net label{
     display:block;
-    margin-bottom:25px;
+    margin-bottom:19px;
 }
 .input-radio{
     display:inline-block;
@@ -589,7 +633,6 @@ header{
     width:23px;
     height:23px;
     margin-right:10px;
-    box-shadow:
 }
 .input-checkbox{
     display:inline-block;
@@ -606,11 +649,11 @@ header{
 .features h3{
     font-size:18px;
     font-weight:bold;
-    margin-bottom:24px;
+    margin-bottom:22px;
 }
 .features label{
     display:block;
-    margin-bottom:21px;
+    margin-bottom:19px;
 }
 .btn-4{
     width:260px;
@@ -742,6 +785,15 @@ header{
     margin-top:14px;
     opacity:0.3;
 }
+.sorting-list li:nth-child(1){
+    width:65px;
+}
+.sorting-list li:nth-child(2){
+    width:65px;
+}
+.sorting-list li:nth-child(3){
+    width:105px;
+}
 .sorting-list li:hover{
     opacity:0.6;
 }
@@ -771,13 +823,13 @@ header{
 .delta-1{
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
-    background-position: -17px -198px;
+    background-position: -20px -321px;
 }
 .delta-2{
     margin-left:8px;
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
-    background-position: -17px -247px;
+    background-position: -20px -370px;
 }
 .bottom-navigator{
     margin-bottom:70px;
@@ -857,7 +909,8 @@ header{
     height:4px;
 }
 Стили спрайта
-./*sprite {
+/*
+.sprite {
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
     display: block;
@@ -875,27 +928,46 @@ header{
     background-position: -20px -75px;
 }
 
+.sprite-fb-icon-red {
+    width: 12px;
+    height: 22px;
+    background-position: -20px -137px;
+}
+
 .sprite-insta-icon {
     width: 21px;
     height: 21px;
-    background-position: -20px -137px;
+    background-position: -20px -199px;
+}
+
+.sprite-insta-icon-red {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -260px;
 }
 
 .sprite-sort-down {
     width: 9px;
     height: 9px;
-    background-position: -20px -198px;
+    background-position: -20px -321px;
 }
 
 .sprite-sort-up {
     width: 9px;
     height: 9px;
-    background-position: -20px -247px;
+    background-position: -20px -370px;
 }
 
 .sprite-vk-icon {
     width: 26px;
     height: 15px;
-    background-position: -20px -296px;
+    background-position: -20px -419px;
 }
+
+.sprite-vk-icon-red {
+    width: 26px;
+    height: 15px;
+    background-position: -20px -474px;
+}
+
 */
