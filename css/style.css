@@ -410,11 +410,11 @@ header{
     width:320px;
     min-height:0px;
     position:absolute;
-    top:50px;
+    top:45px;
     left:76px;
     background:#ffffff;
     padding-top:35px;
-    padding-bottom:35px;
+    padding-bottom:40px;
     padding-right:0px;
     padding-left:0px;
 }
@@ -423,12 +423,20 @@ header{
     margin-bottom:30px;
     font-size:16px;
     text-align:left;
+    color:#000000;
 }
 .main-contakts{
     width:200px;
     margin-right:auto;
     margin-left:auto;
     padding-right:20px;
+}
+.main-contakts .telephone{
+    text-decoration:none;
+    color:#8f8f8f;
+}
+.main-contakts p{
+    color:#8f8f8f;
 }
 .btn-3{
     display:block;
@@ -457,13 +465,13 @@ header{
 }
 .social-list{
     list-style:none;
-    width:260px;
+    width:270px;
     padding-left:0px;
     margin-right:135px;
-    margin-top:25px;
+    margin-top:18px;
 }
 .social-list li{
-    margin-right:3px;
+    margin-right:5px;
 }
 .social-list a{
     display:inline-block;
@@ -516,14 +524,9 @@ header{
     display:block;
     background-position:10px -231px;
 }
-.footer{
-    position:relative;
-}
 .friends{
-    position:absolute;
-    top:28px;
-    left:472px;
     display:inline-block;
+    margin-left:-7px;
 }
 .profit{
     font-weight:bold;
@@ -689,6 +692,8 @@ header{
     width:360px;
     margin-bottom:35px;
     position:relative;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
 }
 .block-item:hover{
     box-shadow:0 0 1px 2px #e1e1e1;
@@ -697,13 +702,20 @@ header{
     display:block;
 }
 .block-general{
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
     border:1px solid #e5e5e5;
 }
 .block-gray{
-    width:360px;
+    width:358px;
     background-color:#e9e9e9;
     padding-top:10px;
     padding-bottom:11px;
+}
+.block-item:hover .block-gray{
+    background-color:#4d4d4d;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
 }
 .block-gray ul{
     margin:0px;
@@ -751,6 +763,13 @@ header{
     text-decoration:none;
     text-transform:uppercase;
 }
+.btn-5:hover{
+    background-color:#e74246;
+}
+.btn-5:active{
+    background-color:#d7373b;
+    box-shadow:inset 0 2px 0 0 #c13135;
+}
 .sedona,.barbershop,.a-plus{
     float:left;
 }
@@ -785,6 +804,10 @@ header{
     margin-top:14px;
     opacity:0.3;
 }
+.sorting-list a{
+    text-decoration:none;
+    color:#000000;
+}
 .sorting-list li:nth-child(1){
     width:65px;
 }
@@ -792,7 +815,7 @@ header{
     width:65px;
 }
 .sorting-list li:nth-child(3){
-    width:105px;
+    width:106px;
 }
 .sorting-list li:hover{
     opacity:0.6;
@@ -819,6 +842,11 @@ header{
 }
 .sorting-delta:active{
     opacity:1;
+}
+.sorting-delta a{
+    display:block;
+    width:100%;
+    height:100%;
 }
 .delta-1{
     background-image: url(../img/sprite.png);
