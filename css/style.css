@@ -715,13 +715,14 @@ header{
     margin-right:10px;
 }
 */
-.input-checkbox{
+/*.input-checkbox{
     display:inline-block;
     vertical-align:middle;
     width:22px;
     height:22px;
     margin-right:10px;
 }
+*/
 .features{
     min-height:250px;
     width:100%;
@@ -732,10 +733,60 @@ header{
     font-weight:bold;
     margin-bottom:22px;
 }
-.features label{
+.features-checkbox{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+.features-checkbox label{
+    cursor:pointer;
+    position:relative;
+    opacity:0.4;
+    display:block;
+    border:1px solid blue;
+    padding-left:35px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:5px;
+}
+.features-checkbox label:hover{
+    opacity:1;
+}
+.features-checkbox label:disabled{
+    opacity:0.1;
+}
+.features-checkbox input+label::before{
+    content:"";
+    display:block;
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    width:27px;
+    height:23px;
+    background-position:-20px -75px;
+    position:absolute;
+    top:2px;
+    left:5px;
+}
+.features-checkbox input:checked+label::before{
+    content:"";
+    display:block;
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    width:27px;
+    height:23px;
+    background-position:-20px -138px;
+    position:absolute;
+    top:2px;
+    left:5px;
+}
+.features-checkbox input{
+    display:none;
+}
+/*.features label{
     display:block;
     margin-bottom:19px;
 }
+*/
 .btn-4{
     width:260px;
     text-transform:uppercase;
