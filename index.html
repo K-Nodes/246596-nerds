@@ -14,26 +14,26 @@
       <div class="main-container">
           <header class="header clearfix">
         <div class="logo">
-          <a href="#" class="logo-link">
+          <a href="index.html" class="logo-link">
             <img src="img/nerds-logo.png" width="160" height="65" alt="nerds">
           </a>
         </div>
         <div class="top-navigation">
             <ul>
                 <li>
-                    <a>Студия</a> 
+                    <a class="visited">Студия</a> 
                 </li>  
                 <li>
                     <a href="#">Клиенты</a> 
                 </li>
                 <li>
-                    <a href="../nerds/catalog.html">Магазин</a> 
+                    <a href="catalog.html">Магазин</a> 
                 </li>
                 <li>
                     <a href="#">Контакты</a> 
                 </li>
             </ul>
-            <div class="vizited vizited-1"></div>
+            <!--  <div class="vizited vizited-1"></div> -->
         </div>
         <div class="top-basket">
             <a href="#" class="basket">  
@@ -41,28 +41,57 @@
             </a>
         </div>
           </header>
-<!--Верхний блок,слайдер-->
-      <div class="slider">
-          <h1>Долго, дорого,<br>
-              скрупулезно.
-          </h1>
-          <p>Математически выверенный дизайн<br>
-             для вашего сайта или мобильного приложения.
-          </p>
-              <div class="more">
-              <a class="btn" href ="#">Узнать больше</a>
-              </div>
-          <div class="slider-icon">
-              <div class="icon icon-active">
-              </div>
-              <div class="icon">
-              </div>
-              <div class="icon">
-              </div>
-          </div>
-          
-      </div>
-      </div>
+   <!--Верхний блок,слайдер-->
+          <div class="slider">
+              <input type="radio" id="icon-1" name="toggle" checked>
+              <input type="radio" id="icon-2" name="toggle">
+              <input type="radio" id="icon-3" name="toggle">
+              <div class="slider-icons">
+                <label for="icon-1"></label>
+                <label for="icon-2"></label>
+                <label for="icon-3"></label>
+            </div>
+            <div class="slides">
+                <div class="slide">
+                    <div class="slide-text">
+                      <div class="slide-title">Долго, дорого, скрупулезно.
+                        </div>
+                        <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+                    <div class="more">
+                        <a class="btn" href="#">Узнать больше</a>
+                    </div>
+                            
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-text">
+                      <div class="slide-title">Любим математику как никто другой
+                        </div>
+                        <p>Никакого креатива, только математические формулы<br>
+                        для расчета идеальных пропорций.</p>
+                    <div class="more">
+                        <a class="btn" href="#">Узнать больше</a>
+                    </div>
+                            
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-text">
+                      <div class="slide-title">Только ночь,<br>
+                        только хардкор
+                        </div>
+                        <p>Работать днем, как все? Мы против этого.<br>
+                        Ближе к полуночи работа только начинается.</p>
+                    <div class="more">
+                        <a class="btn" href="#">Узнать больше</a>
+                    </div>
+                            
+                    </div>
+                </div>
+            </div>  
+          </div>      
+ <!-- Конец слайдера-->     
+         </div>
     </div>
 <!--Каталог услуг-->
     <div class="main-container">
