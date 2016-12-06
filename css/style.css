@@ -1145,6 +1145,107 @@ header{
 .slide-text{
     margin-top:52px;
 }
+.modal-window{
+    width:760px;
+    min-height:440px;
+    background-color:ffffff;
+    font-family:"Roboto","Arial",sans-serif;
+    color:#000000;
+    font-size:16px;
+    line-height:18px;
+    color:#000000;
+    font-weight:bold;
+    padding-top:70px;
+    padding-bottom:80px;
+    padding-right:100px;
+    padding-left:100px;
+    position:absolute;
+    left:50%;
+    margin-left:-480px;
+    box-shadow:0 0 50px 0 #4b4b4b;
+}
+.modal-window-close{
+    width:21px;
+    height:21px;
+    font-size:0;
+    cursor:pointer;
+    position:absolute;
+    top:77px;
+    left:847px;
+    opacity:0.3;
+    display:block;
+    background-color:#ffffff;
+    outline:none;
+    border:none;
+    background-image:url(../img/sprite.png);
+    background-repeat:no-repeat;
+    background-position: -20px -201px;
+}
+.modal-window-close:hover{
+    opacity:1;
+}
+.modal-window-close:active{
+    opacity:0.1;
+}
+.modal-window-title{
+    margin-top:-5px;
+    margin-bottom:43px;
+}
+.modal-form label{
+    display:inline-block;
+}
+.modal-form label:last-child{
+    display:block;
+}
+.modal-form input{
+    width:332px;
+    height:43px;
+    border:2px solid #d7dcde;
+    border-radius:2px;
+    margin-top:10px;
+    padding:0 12px;
+    margin-bottom:35px;
+}
+.modal-form input:hover{
+    border:2px solid #b4b9bb;
+}
+.modal-name{
+    margin-right:36px;
+}
+.modal-form textarea{
+    width:754px;
+    border:2px solid #d7dcde;
+    border-radius:2px;
+    margin-top:10px;
+    margin-bottom:42px;
+}
+.modal-form textarea:hover{
+    border:2px solid #b4b9bb;
+}
+.modal-form button{
+    display:block;
+    width:260px;
+    height:50px;
+    background-color:#fb565a;
+    border-radius:5px;
+    text-align:center;
+    padding-top:16px;
+    padding-bottom:14px;
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    outline:none;
+    border:none;
+}
+.modal-form button:hover{
+    background-color:#e74246;
+}
+.modal-form button:active{
+    background-color:#d7373b;
+    color:#e37376;
+    box-shadow:inset 0 2px 0 0 #c13135;
+}
+}
 /*Конец стилей слайдера*/
 /*Стили спрайта*/
 /*
@@ -1172,64 +1273,70 @@ header{
     background-position: -20px -138px;
 }
 
+.sprite-close-cross {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -201px;
+}
+
 .sprite-fb-icon {
     width: 12px;
     height: 22px;
-    background-position: -20px -201px;
+    background-position: -20px -262px;
 }
 
 .sprite-fb-icon-red {
     width: 12px;
     height: 22px;
-    background-position: -20px -263px;
+    background-position: -20px -324px;
 }
 
 .sprite-insta-icon {
     width: 21px;
     height: 21px;
-    background-position: -20px -325px;
+    background-position: -20px -386px;
 }
 
 .sprite-insta-icon-red {
     width: 21px;
     height: 21px;
-    background-position: -20px -386px;
+    background-position: -20px -447px;
 }
 
 .sprite-radio-off {
     width: 25px;
     height: 25px;
-    background-position: -20px -447px;
+    background-position: -20px -508px;
 }
 
 .sprite-radio-on {
     width: 25px;
     height: 25px;
-    background-position: -20px -512px;
+    background-position: -20px -573px;
 }
 
 .sprite-sort-down {
     width: 9px;
     height: 9px;
-    background-position: -20px -577px;
+    background-position: -20px -638px;
 }
 
 .sprite-sort-up {
     width: 9px;
     height: 9px;
-    background-position: -20px -626px;
+    background-position: -20px -687px;
 }
 
 .sprite-vk-icon {
     width: 26px;
     height: 15px;
-    background-position: -20px -675px;
+    background-position: -20px -736px;
 }
 
 .sprite-vk-icon-red {
     width: 26px;
     height: 15px;
-    background-position: -20px -730px;
+    background-position: -20px -791px;
 }
 
 */
