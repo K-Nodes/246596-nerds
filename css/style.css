@@ -499,37 +499,37 @@ header{
     background-image:url(../img/sprite.png);
     background-repeat:no-repeat;
     display:block;
-    background-position:5px -387px;
+    background-position:7px -703px;
 }
 .social-1 a:active{
     background-image:url(../img/sprite.png);
     background-repeat:no-repeat;
     display:block;
-    background-position:5px -442px;
+    background-position:7px -758px;
 }
 .social-2 a{
     background-image:url(../img/sprite.png);
     background-repeat:no-repeat;
     display:block;
-    background-position:14px -47px;
+    background-position:14px -233px;
 }
 .social-2 a:active{
     background-image:url(../img/sprite.png);
     background-repeat:no-repeat;
     display:block;
-    background-position:14px -109px;
+    background-position:14px -295px;
 }
 .social-3 a{
     background-image:url(../img/sprite.png);
     background-repeat:no-repeat;
     display:block;
-    background-position:10px -170px;
+    background-position:10px -356px;
 }
 .social-3 a:active{
     background-image:url(../img/sprite.png);
     background-repeat:no-repeat;
     display:block;
-    background-position:10px -231px;
+    background-position:10px -417px;
 }
 .friends{
     display:inline-block;
@@ -548,7 +548,6 @@ header{
     width:260px;
     min-height:775px;
     float:left;
-    border:1px solid green;
 }
 .range-filter{
     width:240px;
@@ -629,28 +628,28 @@ header{
     width:100%;
     padding-top:25px;
     margin-bottom:45px;
-    border:1px solid red;
 }
 .net h3{
     font-size:18px;
     font-weight:bold;
+    margin-bottom:22px;
 }
 
 .net-radio{
     list-style:none;
     margin:0px;
     padding:0px;
+    margin-top:-5px;
 }
 .net-radio label{
     cursor:pointer;
     position:relative;
     opacity:0.4;
     display:block;
-    border:1px solid blue;
     padding-left:35px;
     padding-top:5px;
     padding-bottom:5px;
-    margin-bottom:5px;
+    margin-bottom:12px;
 }
 .net-radio label:hover{
     opacity:1;
@@ -665,10 +664,10 @@ header{
     background-repeat:no-repeat;
     width:25px;
     height:25px;
-    background-position:-20px -447px;
+    background-position:-20px -508px;
     position:absolute;
     top:2px;
-    left:5px;
+    left:0px;
 }
 .net-radio input:checked+label::before{
     content:"";
@@ -677,10 +676,10 @@ header{
     background-repeat:no-repeat;
     width:25px;
     height:25px;
-    background-position: -20px -512px;
+    background-position:-20px -573px;
     position:absolute;
     top:2px;
-    left:5px;
+    left:0px;
 }
 /*.net-line{
     display:block;
@@ -726,12 +725,12 @@ header{
 .features{
     min-height:250px;
     width:100%;
-    margin-bottom:22px;
+    margin-bottom:23px;
 }
 .features h3{
     font-size:18px;
     font-weight:bold;
-    margin-bottom:22px;
+    margin-bottom:17px;
 }
 .features-checkbox{
     list-style:none;
@@ -743,11 +742,10 @@ header{
     position:relative;
     opacity:0.4;
     display:block;
-    border:1px solid blue;
     padding-left:35px;
     padding-top:5px;
     padding-bottom:5px;
-    margin-bottom:5px;
+    margin-bottom:12px;
 }
 .features-checkbox label:hover{
     opacity:1;
@@ -765,7 +763,7 @@ header{
     background-position:-20px -75px;
     position:absolute;
     top:2px;
-    left:5px;
+    left:0px;
 }
 .features-checkbox input:checked+label::before{
     content:"";
@@ -777,7 +775,7 @@ header{
     background-position:-20px -138px;
     position:absolute;
     top:2px;
-    left:5px;
+    left:0px;
 }
 .features-checkbox input{
     display:none;
@@ -810,7 +808,6 @@ header{
     float:right;
     width:760px;
     margin-right:38px;
-    border:1px solid red;
 }
 .block-list{
     margin-top:23px;
@@ -919,7 +916,7 @@ header{
     display:inline-block;
     vertical-align:top;
     margin-left:400px;
-    margin-top:-50px;
+    margin-top:-48px;
 }
 .sorting-list{
     list-style:none;
@@ -930,7 +927,7 @@ header{
     display:inline-block;
     text-transform:uppercase;
     font-size:14px;
-    margin-right:18px;
+    margin-right:14px;
     margin-top:14px;
     opacity:0.3;
 }
@@ -957,8 +954,11 @@ header{
     display:inline-block;
     position:absolute;
     vertical-align:top;
-    top:6px;
-    right:0px;
+    top:8px;
+    right:-3px;
+    width:45px;
+    height:15px;
+    padding:0px;
 }
 .sorting-delta{
     width:15px;
@@ -980,14 +980,20 @@ header{
 }
 .delta-1{
     background-image: url(../img/sprite.png);
+    display:inline-block;
     background-repeat: no-repeat;
-    background-position: -20px -321px;
+    width:9px;
+    height:9px;
+    background-position:-20px -638px;
+    margin-right:18px;
 }
 .delta-2{
-    margin-left:8px;
     background-image: url(../img/sprite.png);
+    display:inline-block;
     background-repeat: no-repeat;
-    background-position: -20px -370px;
+    width:9px;
+    height:9px;
+    background-position:-20px -687px;
 }
 .bottom-navigator{
     margin-bottom:70px;
@@ -1148,7 +1154,7 @@ header{
 .modal-window{
     width:760px;
     min-height:440px;
-    background-color:ffffff;
+    background-color:#ffffff;
     font-family:"Roboto","Arial",sans-serif;
     color:#000000;
     font-size:16px;
@@ -1161,8 +1167,10 @@ header{
     padding-left:100px;
     position:absolute;
     left:50%;
-    margin-left:-480px;
+    margin-left:-500px;
     box-shadow:0 0 50px 0 #4b4b4b;
+    top:1695px;
+    display:none;
 }
 .modal-window-close{
     width:21px;
@@ -1205,6 +1213,7 @@ header{
     margin-top:10px;
     padding:0 12px;
     margin-bottom:35px;
+    outline:none;
 }
 .modal-form input:hover{
     border:2px solid #b4b9bb;
@@ -1218,6 +1227,8 @@ header{
     border-radius:2px;
     margin-top:10px;
     margin-bottom:42px;
+    outline:none;
+    resize:none;
 }
 .modal-form textarea:hover{
     border:2px solid #b4b9bb;
