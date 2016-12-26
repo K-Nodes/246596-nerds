@@ -9,16 +9,15 @@
   </head>
   <body>
 <!--Хедер-->
-      
     <div class="top-block">
       <div class="main-container">
           <header class="header clearfix">
-        <div class="logo">
-          <a href="index.html" class="logo-link">
-            <img src="img/nerds-logo.png" width="160" height="65" alt="nerds">
-          </a>
-        </div>
-        <div class="top-navigation">
+            <div class="logo">
+              <a href="index.html" class="logo-link">
+              <img src="img/nerds-logo.png" width="160" height="65" alt="nerds">
+              </a>
+            </div>
+          <div class="top-navigation">
             <ul>
                 <li>
                     <a class="visited">Студия</a> 
@@ -33,8 +32,7 @@
                     <a href="#">Контакты</a> 
                 </li>
             </ul>
-            <!--  <div class="vizited vizited-1"></div> -->
-        </div>
+          </div>
         <div class="top-basket">
             <a href="#" class="basket">  
             Корзина
@@ -251,48 +249,5 @@
       </div>
       <div class="modal-overlay"></div>
       <script src="js/script.js"></script>
-      <!--  <script>
-          var link=document.querySelector(".btn-3");
-          var popup=document.querySelector(".modal-window");
-          var close=popup.querySelector(".modal-window-close");
-          var form=popup.querySelector("form");
-          var login=popup.querySelector("[name=modal-name]");
-          var mail=popup.querySelector("[name=modal-mail]");
-          var textarea=popup.querySelector("[name=modal-text]");
-          var storage=localStorage.getItem("modal-name");
-          link.addEventListener("click",function(event) {
-            event.preventDefault();
-            popup.classList.add("modal-window-show");
-            if(storage){
-                login.value=storage;
-                mail.focus();
-            } else{
-                login.focus();
-            }
-          });
-          close.addEventListener("click",function(event) {
-            event.preventDefault();
-            popup.classList.remove("modal-window-show");
-            popup.classList.remove("modal-error");
-          });
-          form.addEventListener("submit",function(event){
-            if(!login.value||!mail.value||!textarea.value){
-                event.preventDefault();
-                popup.classList.remove("modal-error");
-              popup.offsetWidth=popup.offsetWidth;
-                popup.classList.add("modal-error");
-            } else {
-                localStorage.setItem("modal-name",login.value);
-            } 
-          });
-          window.addEventListener("keydown",function(event){
-              if(event.keyCode === 27){
-                  if(popup.classList.contains("modal-window-show")){
-                  popup.classList.remove("modal-window-show");
-                  popup.classList.remove("modal-error");
-                  }
-              }
-          });
-      </script>  -->
     </body> 
 </html>

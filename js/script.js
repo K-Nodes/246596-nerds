@@ -6,10 +6,12 @@
           var mail=popup.querySelector("[name=modal-mail]");
           var textarea=popup.querySelector("[name=modal-text]");
           var storage=localStorage.getItem("modal-name");
+          var overlay=document.querySelector(".modal-overlay");
           link.addEventListener("click",function(event) {
             event.preventDefault();
             popup.classList.add("modal-window-show");
-            if(storage){
+            overlay.classList.add("modal-overlay-show");
+              if(storage){
                 login.value=storage;
                 mail.focus();
             } else{
@@ -20,6 +22,7 @@
             event.preventDefault();
             popup.classList.remove("modal-window-show");
             popup.classList.remove("modal-error");
+            overlay.classList.remove("modal-overlay-show");
           });
           form.addEventListener("submit",function(event){
             if(!login.value||!mail.value||!textarea.value){
@@ -37,5 +40,8 @@
                   popup.classList.remove("modal-window-show");
                   popup.classList.remove("modal-error");
                   }
+            if(overlay.classList.contains("modal-overlay-show")){
+                overlay.classList.remove("modal-overlay-show");
+            }
               }
           });

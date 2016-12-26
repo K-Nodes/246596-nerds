@@ -55,13 +55,9 @@ header{
     opacity:0.3;
 }
 .top-navigation{
-    /*position:relative;*/
-    width:440px;
-    /*min-height:45px; */
     float:left;
     margin-left:200px;
-    /*border:1px solid red;*/
-}
+   }
 .top-navigation ul{
     margin:0;
     padding:0;
@@ -72,32 +68,12 @@ header{
     line-height:30px;
     margin-right:42px;
 }
-
-/*.vizited{
-    position:absolute;
-    display:block;
-    height:2px;
-    background-color:#fb565a;
-}
-.vizited-1{
-    width:60px;
-    top:55px;
-    left:2px;
-}
-.vizited-3{
-    width:74px;
-    top:55px;
-    left:233px;
-    left:233px;
-}
-*/
 .top-navigation a{
     display:block;
     color:#000000;
     text-decoration:none;
     text-transform:uppercase;
     padding-top:20px;
-    /*padding-bottom:20px;*/
     font-family:"Roboto","Arial",sans-serif;
     font-weight:bold;
     }
@@ -683,47 +659,9 @@ header{
     top:2px;
     left:0px;
 }
-/*.net-line{
-    display:block;
-    border:1px solid blue;
-    padding-left:35px;
-    padding-top:5px;
-    padding-bottom:5px;
-    margin-bottom:5px;
-}
-*/
 .net-radio input{
     display:none;
 }
-
-
-/*.net-list{
-    list-style:none;
-    margin:0;
-    padding:0;
-}
-*/
-/*.net label{
-    display:block;
-    margin-bottom:19px;
-}
-*/
-/*.input-radio{
-    display:inline-block;
-    vertical-align:middle;
-    width:23px;
-    height:23px;
-    margin-right:10px;
-}
-*/
-/*.input-checkbox{
-    display:inline-block;
-    vertical-align:middle;
-    width:22px;
-    height:22px;
-    margin-right:10px;
-}
-*/
 .features{
     min-height:250px;
     width:100%;
@@ -782,11 +720,6 @@ header{
 .features-checkbox input{
     display:none;
 }
-/*.features label{
-    display:block;
-    margin-bottom:19px;
-}
-*/
 .btn-4{
     width:260px;
     text-transform:uppercase;
@@ -1029,7 +962,7 @@ header{
     color:#959595;
     box-shadow:inset 0 2px 0 0 #bfbfbf;
 }
-.page .page-vizited{
+.page .page-visited{
     background-color:"#ffffff";
     opacity:1;
     box-shadow:inset 0 0 0 3px #dbdbdb;
@@ -1043,7 +976,6 @@ header{
     width:100%;
     min-height:435px;
     margin:0 auto;
-    /*border:1px solid red;*/
     margin-top:-15px;
 }
 .slider input[type=radio]{
@@ -1168,10 +1100,7 @@ header{
     padding-right:100px;
     padding-left:100px;
     position:fixed;
-    /*left:50%;*/
-    /*margin-left:-500px;*/
     box-shadow:0 0 50px 0 #4b4b4b;
-    /*top:1695px;*/
     display:none;
     z-index:30;
     left:190px;
@@ -1216,6 +1145,9 @@ header{
     height:100%;
     background:rgba(129 129 129 0.5);
     display:none;
+}
+.modal-overlay-show{
+    display:block;
 }
 .modal-window-title{
     margin-top:-5px;
@@ -1321,97 +1253,3 @@ header{
         transform:translateX(10px);
     }
 }
-/*Конец стилей слайдера*/
-/*Стили спрайта*/
-/*
-.sprite {
-    background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite-cart-icon {
-    width: 15px;
-    height: 15px;
-    background-position: -20px -20px;
-}
-
-.sprite-checkbox-off {
-    width: 27px;
-    height: 23px;
-    background-position: -20px -75px;
-}
-
-.sprite-checkbox-on {
-    width: 27px;
-    height: 23px;
-    background-position: -20px -138px;
-}
-
-.sprite-close-cross {
-    width: 21px;
-    height: 21px;
-    background-position: -20px -201px;
-}
-
-.sprite-fb-icon {
-    width: 12px;
-    height: 22px;
-    background-position: -20px -262px;
-}
-
-.sprite-fb-icon-red {
-    width: 12px;
-    height: 22px;
-    background-position: -20px -324px;
-}
-
-.sprite-insta-icon {
-    width: 21px;
-    height: 21px;
-    background-position: -20px -386px;
-}
-
-.sprite-insta-icon-red {
-    width: 21px;
-    height: 21px;
-    background-position: -20px -447px;
-}
-
-.sprite-radio-off {
-    width: 25px;
-    height: 25px;
-    background-position: -20px -508px;
-}
-
-.sprite-radio-on {
-    width: 25px;
-    height: 25px;
-    background-position: -20px -573px;
-}
-
-.sprite-sort-down {
-    width: 9px;
-    height: 9px;
-    background-position: -20px -638px;
-}
-
-.sprite-sort-up {
-    width: 9px;
-    height: 9px;
-    background-position: -20px -687px;
-}
-
-.sprite-vk-icon {
-    width: 26px;
-    height: 15px;
-    background-position: -20px -736px;
-}
-
-.sprite-vk-icon-red {
-    width: 26px;
-    height: 15px;
-    background-position: -20px -791px;
-}
-
-*/
