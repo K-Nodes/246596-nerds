@@ -1,253 +1,244 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
 <!--Хедер-->
     <div class="top-block">
-      <div class="main-container">
-          <header class="header clearfix">
-            <div class="logo">
-              <a href="index.html" class="logo-link">
-              <img src="img/nerds-logo.png" width="160" height="65" alt="nerds">
-              </a>
-            </div>
-          <div class="top-navigation">
-            <ul>
-                <li>
-                    <a class="visited">Студия</a> 
-                </li>  
-                <li>
-                    <a href="#">Клиенты</a> 
-                </li>
-                <li>
-                    <a href="catalog.html">Магазин</a> 
-                </li>
-                <li>
-                    <a href="#">Контакты</a> 
-                </li>
-            </ul>
-          </div>
-        <div class="top-basket">
-            <a href="#" class="basket">  
-            Корзина
-            </a>
+        <div class="main-container">
+            <header class="header clearfix">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="img/nerds-logo.png" width="160" height="65" alt="nerds">
+                    </a>
+                </div>
+                <div class="top-navigation">
+                    <ul>
+                        <li>
+                            <a class="visited">Студия</a> 
+                        </li>  
+                        <li>
+                            <a href="#">Клиенты</a> 
+                        </li>
+                        <li>
+                            <a href="catalog.html">Магазин</a> 
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-basket">
+                    <a href="#" class="basket">Корзина</a>
+                </div>
+            </header>
+<!--Верхний блок,слайдер-->
+            <div class="slider">
+                <input type="radio" id="icon-1" name="toggle" checked>
+                <input type="radio" id="icon-2" name="toggle">
+                <input type="radio" id="icon-3" name="toggle">
+                <div class="slider-icons">
+                    <label for="icon-1"></label>
+                    <label for="icon-2"></label>
+                    <label for="icon-3"></label>
+                </div>
+                <div class="slides">
+                    <div class="slide">
+                        <div class="slide-text">
+                            <div class="slide-title">Долго, дорого, скрупулезно.</div>
+                            <p>Математически выверенный дизайн<br>
+                            для вашего сайта или мобильного приложения.</p>
+                            <div class="more">
+                                <a class="btn" href="#">Узнать больше</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-text">
+                            <div class="slide-title">Любим математику как никто другой</div>
+                            <p>Никакого креатива, только математические формулы<br>
+                            для расчета идеальных пропорций.</p>
+                            <div class="more">
+                                <a class="btn" href="#">Узнать больше</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-text">
+                            <div class="slide-title">Только ночь,<br>
+                            только хардкор
+                            </div>
+                            <p>Работать днем, как все? Мы против этого.<br>
+                            Ближе к полуночи работа только начинается.</p>
+                            <div class="more">
+                                <a class="btn" href="#">Узнать больше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>      
+<!-- Конец слайдера-->     
         </div>
-          </header>
-   <!--Верхний блок,слайдер-->
-          <div class="slider">
-              <input type="radio" id="icon-1" name="toggle" checked>
-              <input type="radio" id="icon-2" name="toggle">
-              <input type="radio" id="icon-3" name="toggle">
-              <div class="slider-icons">
-                <label for="icon-1"></label>
-                <label for="icon-2"></label>
-                <label for="icon-3"></label>
-            </div>
-            <div class="slides">
-                <div class="slide">
-                    <div class="slide-text">
-                      <div class="slide-title">Долго, дорого, скрупулезно.
-                        </div>
-                        <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-                    <div class="more">
-                        <a class="btn" href="#">Узнать больше</a>
-                    </div>
-                            
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slide-text">
-                      <div class="slide-title">Любим математику как никто другой
-                        </div>
-                        <p>Никакого креатива, только математические формулы<br>
-                        для расчета идеальных пропорций.</p>
-                    <div class="more">
-                        <a class="btn" href="#">Узнать больше</a>
-                    </div>
-                            
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slide-text">
-                      <div class="slide-title">Только ночь,<br>
-                        только хардкор
-                        </div>
-                        <p>Работать днем, как все? Мы против этого.<br>
-                        Ближе к полуночи работа только начинается.</p>
-                    <div class="more">
-                        <a class="btn" href="#">Узнать больше</a>
-                    </div>
-                            
-                    </div>
-                </div>
-            </div>  
-          </div>      
- <!-- Конец слайдера-->     
-         </div>
     </div>
 <!--Каталог услуг-->
     <div class="main-container">
-      <div class="bottom-block">
-      <div class="main-list clearfix">
-          <div class="veb-sites">
-              <img src="img/illustration-1.jpg" width="300" height="146" alt="veb-sites">
-              <h3>Веб-сайты</h3>
-              <P>Мир никогда не будет прежним<br>
-                  после того как увидит ваш сайт!
-              </P>
-              <div class="charter charter-1">
-                  <a class="btn-2" href="#">Заказать</a>
-              </div>
-          </div>
-          <div class="apps">
-              <img src="img/illustration-2.jpg" width="300" height="146" alt="apps">
-              <h3>Приложения</h3>
-              <P>Покорите топ-10 приложений в<br>
-                AppStore и Google Play
-              </P>
-              <div class="charter charter-2">
-                  <a class="btn-2" href="#">Заказать</a>
-              </div>
-          </div>
-          <div class="present">
-              <img src="img/illustration-3.jpg" width="300" height="146" alt="present">
-              <h3>Презентации</h3>
-              <P>Вы даже не подозреваете,<br>
-                  насколько вы изумительны!
-              </P>
-              <div class="charter charter-3">
-                  <a class="btn-2" href="#">Заказать</a>
-              </div>
-          </div>
-      </div>
-<!--Блок-объявление-->
-      <div class="advantage clearfix">
-        <div class="advantage-left">  
-          <h2>Мы - маленькая,но гордая дизайн-студия из Краснодара.</h2>
-          <p>Исповедуем принципы минимализма и чистоты.Ставим математический расчет<br> превыше креатива.Работаем не покладая рук,как роботы.</p>
-          <h4>Выполняем заказы на разработку:</h4>
-          <ul class="menu-charter">
-          <li>Веб-сайтов любой сложности</li>
-          <li>Мобильных приложений для iOS и Android</li>
-          <li>Слайдшоу и видео для корпоративных презентаций</li>
-          </ul>
-        </div>
-        <div class="advantage-right">
-          <div class="logo-color">
-        <img src="img/nerds-illustration.jpg" width="360" height="208" alt="color-nerds">
-        </div>
-          <h4>С 2004 года любим точность во всём:</h4>
-        <div class="statistics clearfix">
-              <div class="stat stat-1">
-                  <h2>146<h3>%</h3></h2>
-                  <p>Уровень самоотдачи</p>
-              </div>
-              <div class="stat stat-2">
-                  <h2>100<h3>%</h3></h2>
-                  <p>Соблюдение сроков</p>
-              </div>
-              <div class="stat stat-3">
-                  <h2>50<h3>%</h3></h2>
-                  <p>Минимальная предоплата</p>
-              </div>
-        </div>
-        </div>
-        </div>
-<!--Блок логотипов клиентов-->
-      <div class="client-logotip clearfix">
-          <div class="client client-1">
-              <a href="#">
-              <img src="img/logo-1.png" width="260" height="180" alt="html-academy">
-              </a>
-              <div class="separate-line"></div>
-          </div>
-          <div class="client client-2">
-              <a href="#">
-              <img src="img/logo-2.png" width="260" height="180" alt="barbershop">
-              </a>
-              <div class="separate-line"></div>
-          </div>
-          <div class="client client-3">
-              <a href="#">
-              <img src="img/logo-3.png" width="260" height="180" alt="pink">
-              </a>
-              <div class="separate-line"></div>
-          </div>
-          <div class="client client-4">
-              <a href="#">
-              <img src="img/logo-4.png" width="260" height="180" alt="mishka">
-              </a>
-          </div>
-      </div>
-      </div>
-    </div>
-       
-<!--Блок-карта-->
-     <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6038197432142!2d30.32336374361171!3d59.93871594279319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1477511303302" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <div class="contakts">
-            <div class="main-contakts">
-              <h4>Nerds Design Studio</h4>
-              <p>191186,Санкт-Петербург,<br>
-                ул.Б.Конюшенная,д. 19/8
-              </p>
-              <p>тел.<a class="telephone" href="#">+7(812)275-75-75</a></p>
-              <div>
+        <div class="bottom-block">
+            <div class="main-list clearfix">
+                <div class="veb-sites">
+                    <img src="img/illustration-1.jpg" width="300" height="146" alt="veb-sites">
+                    <h3>Веб-сайты</h3>
+                    <p>Мир никогда не будет прежним<br>
+                    после того как увидит ваш сайт!</p>
+                    <div class="charter charter-1">
+                        <a class="btn-2" href="#">Заказать</a>
+                    </div>
                 </div>
-                  <a class="btn-3" href="#">Напишите нам</a>
+                <div class="apps">
+                    <img src="img/illustration-2.jpg" width="300" height="146" alt="apps">
+                    <h3>Приложения</h3>
+                    <p>Покорите топ-10 приложений в<br>
+                    AppStore и Google Play</p>
+                    <div class="charter charter-2">
+                        <a class="btn-2" href="#">Заказать</a>
+                    </div>
+                </div>
+                <div class="present">
+                    <img src="img/illustration-3.jpg" width="300" height="146" alt="present">
+                    <h3>Презентации</h3>
+                    <p>Вы даже не подозреваете,<br>
+                    насколько вы изумительны!</p>
+                    <div class="charter charter-3">
+                        <a class="btn-2" href="#">Заказать</a>
+                    </div>
+                </div>
             </div>
-          </div>
-     </div>
+<!--Блок-объявление-->
+            <div class="advantage clearfix">
+                <div class="advantage-left">  
+                    <h2>Мы - маленькая,но гордая дизайн-студия из Краснодара.</h2>
+                    <p>Исповедуем принципы минимализма и чистоты.Ставим математический расчет<br> превыше креатива.Работаем не покладая рук,как роботы.</p>
+                    <h4>Выполняем заказы на разработку:</h4>
+                    <ul class="menu-charter">
+                        <li>Веб-сайтов любой сложности</li>
+                        <li>Мобильных приложений для iOS и Android</li>
+                        <li>Слайдшоу и видео для корпоративных презентаций</li>
+                    </ul>
+                </div>
+                <div class="advantage-right">
+                    <div class="logo-color">
+                        <img src="img/nerds-illustration.jpg" width="360" height="208" alt="color-nerds">
+                    </div>
+                    <h4>С 2004 года любим точность во всём:</h4>
+                    <div class="statistics clearfix">
+                        <div class="stat stat-1">
+                            <h2>146
+                                <h3>%</h3>
+                            </h2>
+                            <p>Уровень самоотдачи</p>
+                        </div>
+                        <div class="stat stat-2">
+                            <h2>100
+                                <h3>%</h3>
+                            </h2>
+                            <p>Соблюдение сроков</p>
+                        </div>
+                        <div class="stat stat-3">
+                            <h2>50
+                                <h3>%</h3>
+                            </h2>
+                            <p>Минимальная предоплата</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--Блок логотипов клиентов-->
+            <div class="client-logotip clearfix">
+                <div class="client client-1">
+                    <a href="#">
+                        <img src="img/logo-1.png" width="260" height="180" alt="html-academy">
+                    </a>
+                    <div class="separate-line"></div>
+                </div>
+                <div class="client client-2">
+                    <a href="#">
+                        <img src="img/logo-2.png" width="260" height="180" alt="barbershop">
+                    </a>
+                    <div class="separate-line"></div>
+                </div>
+                <div class="client client-3">
+                    <a href="#">
+                        <img src="img/logo-3.png" width="260" height="180" alt="pink">
+                    </a>
+                    <div class="separate-line"></div>
+                </div>
+                <div class="client client-4">
+                    <a href="#">
+                        <img src="img/logo-4.png" width="260" height="180" alt="mishka">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Блок-карта-->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6038197432142!2d30.32336374361171!3d59.93871594279319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1477511303302" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="contakts">
+            <div class="main-contakts">
+                <h4>Nerds Design Studio</h4>
+                <p>191186,Санкт-Петербург,<br>
+                ул.Б.Конюшенная,д. 19/8
+                </p>
+                <p>тел.
+                    <a class="telephone" href="#">+7(812)275-75-75</a>
+                </p>
+                <a class="btn-3" href="#">Напишите нам</a>
+            </div>
+        </div>
+    </div>
 <!--Футер-->
-      <footer class="footer">
+    <footer class="footer">
         <div class="main-container">
-          <div class="social">
-            <ul class="social-list">
-                <li class="social social-1">
-                <a href="#" title="vkontakte">   
-                </a>
-                </li>
-                <li class="social social-2">
-                <a href="#" title="facebook">  
-                </a>
-                </li>
-                <li class="social social-3">
-                <a href="#" title="instagram">  </a>
-                </li>
-            </ul>
+            <div class="social">
+                <ul class="social-list">
+                    <li class="social social-1">
+                        <a href="#" title="vkontakte"></a>
+                    </li>
+                    <li class="social social-2">
+                        <a href="#" title="facebook"></a>
+                    </li>
+                    <li class="social social-3">
+                        <a href="#" title="instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="friends">
+                <div class="profit">Давайте дружить,это выгодно!</div>
+                <p>Скидка 10% для друзей из социальных сетей.</p>
+            </div>
         </div>
-        <div class="friends">
-          <div class="profit">Давайте дружить,это выгодно!
-          </div>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
-        </div>
-        </div>
-      </footer>
-      <div class="modal-window">
-            <button class="modal-window-close" title="Закрыть" type="button">Закрыть
-            </button>
-          <h2 class="modal-window-title">Напишите нам</h2>
-          <form class="modal-form" action="#" method="post">
-              <label>Ваше имя:<br>
+    </footer>
+    <div class="modal-window">
+        <button class="modal-window-close" title="Закрыть" type="button">Закрыть</button>
+        <h2 class="modal-window-title">Напишите нам</h2>
+        <form class="modal-form" action="#" method="post">
+            <label>Ваше имя:<br>
                 <input class="modal-name" type="text" name="modal-name" placeholder="Представьтесь, пожалуйста">
-              </label>
-              <label>Ваш e-mail:<br>
+            </label>
+            <label>Ваш e-mail:<br>
                 <input class="modal-mail" type="text" name="modal-mail" placeholder="Для отправки ответа">
-              </label>
-              <label>Текст письма:<br>
-                  <textarea placeholder="В свободной форме" name="modal-text" rows="5"></textarea>
-              </label>
-              <button type="submit" class="btn-6">Отправить
-              </button>
-          </form>
-      </div>
-      <div class="modal-overlay"></div>
-      <script src="js/script.js"></script>
-    </body> 
+            </label>
+            <label>Текст письма:<br>
+                <textarea placeholder="В свободной форме" name="modal-text" rows="5"></textarea>
+            </label>
+            <button type="submit" class="btn-6">Отправить</button>
+        </form>
+    </div>
+    <div class="modal-overlay"></div>
+    <script src="js/scripts.js"></script>
+</body> 
 </html>
